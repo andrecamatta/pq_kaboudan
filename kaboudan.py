@@ -65,6 +65,7 @@ def prepare_data(series_data, test_size=48):
 
 def analyze_series(series_name, series_data, block_size=12, use_sarima=False, n_shuffles=5):
     """Analisa previsibilidade de série temporal usando métrica de Kaboudan."""
+    np.random.seed(42)
     # Preparação dos dados
     series_returns, train_returns, test_returns = prepare_data(series_data)
     
