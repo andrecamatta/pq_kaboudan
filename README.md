@@ -19,7 +19,7 @@ Este projeto tem como objetivo analisar a previsibilidade de séries temporais, 
 2.  **Instale as dependências:**
 
     ```bash
-    pip install -r requirements.txt
+    uv pip install -r pyproject.toml
     ```
 
 3.  **Execute o script:**
